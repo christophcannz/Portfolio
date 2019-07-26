@@ -1,7 +1,9 @@
 body {
     background-image: url("./assets/images/wood.png");
     font-family: 'NTR', sans-serif;
+    margin: 0;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -72,6 +74,58 @@ body {
     display: block;
 }
 
+.info-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.c {
+    text-align: center;
+}
+
+.container a {
+    width: 30%;
+}
+  
+.container img {
+    width: 100%;
+    padding: 10px;
+}
+  
+@media screen and (max-width: 760px) {
+    .container img {
+      width: 100%;
+    }
+}
+  
+@media screen and (max-width: 400px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container img {
+      width: 80%;
+    }
+}
+
 footer{
     bottom: 0;
     position: fixed;
@@ -89,37 +143,3 @@ footer{
     font-size: 9pt;
 }
 
-.container {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  
-  body {
-    margin: 0;
-  }
-  
-  .container img {
-    width: 30%;
-    padding: 10px;
-  }
-  
-  @media screen and (max-width: 750px) {
-    .container img {
-      width: 40%;
-    }
-  }
-  
-  @media screen and (max-width: 560px) {
-    .container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .container img {
-      width: 80%;
-    }
-  }
