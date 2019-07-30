@@ -1,5 +1,6 @@
 body {
-    background-image: url("./assets/images/wood.png");
+    /*background-image: url("./assets/images/blacksand.jpg");*/
+    background-color: black;
     font-family: 'NTR', sans-serif;
     margin: 0;
 }
@@ -34,8 +35,8 @@ body {
 }
 
 .nav-area a:hover {
-    background-color: #379683;
-    color: #5cdb95;
+    background-color: #edf5e1;
+    color: #05386b;
 }
 
 .nav-area ul {
@@ -50,12 +51,13 @@ body {
 }
 
 .nav-area .dropdown li > a {
-    background-color: #379683;
+    background-color: #05386b;
     color: #edf5e1;
 }
 
 .nav-area .dropdown li > a:hover {
-    background-color: #5cdb95;
+    background-color: #edf5e1;
+    color: #05386b;
 }
 
 .dropdown > ul li {
@@ -75,7 +77,7 @@ body {
 }
 
 .info-container {
-    padding: 20px;
+    padding: 65px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -83,8 +85,20 @@ body {
     margin: 0 auto;
 }
 
+.main-logo {
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+.headshot {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 p {
     text-align: center;
+    color: #edf5e1;
 }
 
 .container {
@@ -133,7 +147,7 @@ footer{
 }
 
 .footer {
-    background: #05386b;
+    background:#05386b;
     height: 10px;
     margin: auto;
     width: 100%;
