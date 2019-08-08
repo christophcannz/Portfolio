@@ -1,7 +1,7 @@
 body {
     /*background-image: url("./assets/images/stars.jpg");*/
     background-size: 100%;
-    background-color: #272727;
+    background-color: #3b945e;
     font-family: 'NTR', sans-serif;
     margin: 0;
 }
@@ -17,9 +17,10 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: #ff652f;
+    background-color: #182628;
     height: 50px;
     text-decoration: none;
+    z-index: 1;
 }
 
 .nav-area ul li > ul {
@@ -36,8 +37,8 @@ body {
 }
 
 .nav-area a:hover {
-    background-color: #edf5e1;
-    color: #272727;
+    background-color: #3b945e;
+    color: #white;
 }
 
 .nav-area ul {
@@ -52,13 +53,13 @@ body {
 }
 
 .nav-area .dropdown li > a {
-    background-color: #ff652f;
-    color: #edf5e1;
+    background-color: #182628;
+    color: #white;
 }
 
 .nav-area .dropdown li > a:hover {
-    background-color: #edf5e1;
-    color: #272727;
+    background-color: #3b945e;
+    color: #white;
 }
 
 .dropdown > ul li {
@@ -71,6 +72,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    z-index: 2;
 }
 
 .dropdown ul li:hover {
@@ -109,9 +111,16 @@ body {
 }
 
 .logo-container {
+    width: 420px;
     display: flex;
+    position: relative;
     justify-content: center;
-    margin: 45px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #182628;
 }
 
 .main-logo {
@@ -207,7 +216,7 @@ footer{
 }
 
 .footer {
-    background:#ff652f;
+    background:#182628;
     height: 10px;
     margin: auto;
     width: 100%;
