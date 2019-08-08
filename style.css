@@ -1,7 +1,7 @@
 body {
     /*background-image: url("./assets/images/stars.jpg");*/
     background-size: 100%;
-    background-color: #edf5e1;
+    background-color: #272727;
     font-family: 'NTR', sans-serif;
     margin: 0;
 }
@@ -16,9 +16,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #edf5e1;
-    background-color: #05386b;
-    height: 30px;
+    color: white;
+    background-color: #ff652f;
+    height: 50px;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .nav-area a:hover {
     background-color: #edf5e1;
-    color: #05386b;
+    color: #272727;
 }
 
 .nav-area ul {
@@ -52,13 +52,13 @@ body {
 }
 
 .nav-area .dropdown li > a {
-    background-color: #05386b;
+    background-color: #ff652f;
     color: #edf5e1;
 }
 
 .nav-area .dropdown li > a:hover {
     background-color: #edf5e1;
-    color: #05386b;
+    color: #272727;
 }
 
 .dropdown > ul li {
@@ -111,7 +111,7 @@ body {
 .logo-container {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 45px;
 }
 
 .main-logo {
@@ -134,7 +134,7 @@ h2 {
 p {
     text-align: center;
     text-align-last: justify;
-    color: #05386b;
+    color: white;
 }
 
 .container {
@@ -152,26 +152,26 @@ p {
 }
 
 .c a:any-link {
-    color: #05386b;
+    color: white;
     text-decoration: none;
 }
 
 .c {
     text-align: center;
-    color: #05386b;
+    color: white;
 }
 .c a:link {
-    color: #05386b;
+    color: white;
 }
 .c a:visited {
-    color: #05386b;
+    color: white;
 }
 .c a:hover {
-    background-color: #05386b;
+    background-color: #ff652f;
     color: #edf5e1;
 }
 .c a:active {
-    color: #05386b;
+    color: white;
 }
 
 .container a {
@@ -207,7 +207,7 @@ footer{
 }
 
 .footer {
-    background:#05386b;
+    background:#ff652f;
     height: 10px;
     margin: auto;
     width: 100%;
