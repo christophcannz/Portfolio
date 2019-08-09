@@ -123,9 +123,9 @@ body {
     background-color: #182628;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 300px) {
     .logo-container {
-      width: 320;
+      width: 300px;
     }
   
     .logo-container img {
