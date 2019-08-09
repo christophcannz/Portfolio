@@ -123,6 +123,16 @@ body {
     background-color: #182628;
 }
 
+@media screen and (max-width: 320px) {
+    .logo-container {
+      width: 320;
+    }
+  
+    .logo-container img {
+      width: 80%;
+    }
+}
+
 .main-logo {
     margin-top: -30px;
     margin-bottom: 15px;
