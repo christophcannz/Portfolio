@@ -1,7 +1,7 @@
 body {
     /*background-image: url("./assets/images/stars.jpg");*/
     background-size: 100%;
-    background-color: #3b945e;
+    background-color: black;
     font-family: 'NTR', sans-serif;
     margin: 0;
 }
@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: #182628;
+    background-color: red;
     height: 50px;
     text-decoration: none;
     z-index: 1;
@@ -37,8 +37,8 @@ body {
 }
 
 .nav-area a:hover {
-    background-color: #3b945e;
-    color: #white;
+    background-color: black;
+    color: turquoise;
 }
 
 .nav-area ul {
@@ -53,13 +53,13 @@ body {
 }
 
 .nav-area .dropdown li > a {
-    background-color: #182628;
+    background-color: red;
     color: #white;
 }
 
 .nav-area .dropdown li > a:hover {
-    background-color: #3b945e;
-    color: #white;
+    background-color: black;
+    color: turquoise;
 }
 
 .dropdown > ul li {
@@ -84,7 +84,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -101,15 +101,6 @@ body {
     height: 1px;
 }*/
 
-.info-container2 {
-    padding: 65;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 .logo-container {
     width: 420px;
     display: flex;
@@ -120,7 +111,7 @@ body {
     margin-right: auto;
     margin-bottom: 30px;
     padding: 25px;
-    background-color: #182628;
+    background-color:black;
 }
 
 @media screen and (max-width: 419px) {
@@ -153,7 +144,7 @@ h2 {
 
 p {
     text-align: center;
-    text-align-last: justify;
+    /*text-align-last: justify;*/
     color: white;
 }
 
@@ -187,7 +178,7 @@ p {
     color: white;
 }
 .c a:hover {
-    background-color: #ff652f;
+    background-color: red;
     color: #edf5e1;
 }
 .c a:active {
@@ -203,20 +194,15 @@ p {
     padding: 10px;
 }
   
-@media screen and (max-width: 760px) {
-    .container img {
-      width: 100%;
-    }
-}
-  
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
     .container {
       flex-direction: column;
       align-items: center;
+      width: 100%;
     }
-  
-    .container img {
-      width: 80%;
+
+    .container a {
+        width: 100%;
     }
 }
 
@@ -227,7 +213,7 @@ footer{
 }
 
 .footer {
-    background:#182628;
+    background:red;
     height: 10px;
     margin: auto;
     width: 100%;
