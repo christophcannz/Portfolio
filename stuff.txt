@@ -1,0 +1,11 @@
+#2e9cca text color
+#25274d body color
+#turquoise hover
+
+border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #2e9cca;
+
+border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #2e9cca;
