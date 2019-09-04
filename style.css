@@ -1,7 +1,7 @@
 body {
-    /*background-image: url("./assets/images/stars.jpg");*/
+    background-image: url("./assets/images/Sky.jpg");
     background-size: 100%;
-    background-color: #001428 ;
+    /*background-color: black;*/
     font-family: 'NTR', sans-serif;
     margin: 0;
 }
@@ -20,7 +20,7 @@ body {
     background-color:#00688b;
     border-bottom-style: solid;
     border-bottom-width: thin;
-    border-bottom-color: turquoise;
+    border-bottom-color: blue;
     height: 50px;
     text-decoration: none;
     z-index: 1;
@@ -40,7 +40,7 @@ body {
 }
 
 .nav-area a:hover {
-    background-color: turquoise;
+    background-color: white;
     color: #25274d;
 }
 
@@ -56,13 +56,13 @@ body {
 }
 
 .nav-area .dropdown li > a {
-    background-color: turquoise;
+    background-color: #00688b;
     color: #white;
 }
 
 .nav-area .dropdown li > a:hover {
-    background-color: #00688b;
-    color: turquoise;
+    background-color: white;
+    color: #25274d;
 }
 
 .dropdown > ul li {
@@ -114,7 +114,6 @@ body {
     margin-right: auto;
     margin-bottom: 30px;
     padding: 25px;
-    background-color:black;
 }
 
 @media screen and (max-width: 419px) {
@@ -181,7 +180,7 @@ p {
     color: #2e9cca;
 }
 .c a:hover {
-    background-color: turquoise;
+    background-color: white;
     color: #2e9cca;
 }
 .c a:active {
@@ -226,6 +225,6 @@ footer{
     font-size: 9pt;
     border-top-style: solid;
     border-top-width: thin;
-    border-top-color: turquoise;
+    border-top-color: blue;
 }
 
