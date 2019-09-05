@@ -166,27 +166,43 @@ p {
     color: white;
 }
 
+
+
+.c {
+    font-size: 16pt;
+    text-align: center;
+    color: #25274d;
+}
+
 .c a:any-link {
-    color: #2e9cca;
+    color: #25274d;
     text-decoration: none;
 }
 
-.c {
-    text-align: center;
-    color: #2e9cca;
-}
 .c a:link {
-    color: #2e9cca;
+    color: #25274d;
 }
+
 .c a:visited {
-    color: #2e9cca;
+    color: #25274d;
 }
+
 .c a:hover {
     background-color: white;
-    color: #2e9cca;
+    color: #25274d;
 }
+
 .c a:active {
-    color: #2e9cca;
+    color: #25274d;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background-color: #00688b;
+    height: 40px;
+    margin: 5px;
 }
 
 .container a {
