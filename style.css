@@ -1,9 +1,14 @@
 body {
-    background-image: url("./assets/images/Sky.jpg");
-    background-size: cover;
+    /*background-image: url("./assets/images/Sky.jpg");
+    background-size: auto 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     /*background-color: black;*/
+    background: url("./assets/images/Sky.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: 'NTR', sans-serif;
     margin: 0;
 }
