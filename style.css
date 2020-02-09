@@ -2,9 +2,9 @@ body {
     /*background-image: url("./assets/images/Sky.jpg");
     background-size: auto 100%;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    /*background-color: black;*/
-    background: url("./assets/images/Sky.jpg") no-repeat center center fixed; 
+    background-repeat: no-repeat;*/
+    
+    background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,17 +18,17 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'NTR', sans-serif;
+    font-size: 18px;
+    color: white;
 }
 
 .nav-area a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #25274d;
-    background-color:#00688b;
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-    border-bottom-color: blue;
+    color: white;
+    background-color:black;
     height: 50px;
     text-decoration: none;
     z-index: 1;
@@ -48,8 +48,8 @@ body {
 }
 
 .nav-area a:hover {
-    background-color: white;
-    color: #25274d;
+    background-color: yellow;
+    color: black;
 }
 
 .nav-area ul {
@@ -64,13 +64,13 @@ body {
 }
 
 .nav-area .dropdown li > a {
-    background-color: #00688b;
+    background-color: black;
     color: #white;
 }
 
 .nav-area .dropdown li > a:hover {
-    background-color: white;
-    color: #25274d;
+    background-color: yellow;
+    color: black;
 }
 
 .dropdown > ul li {
@@ -98,19 +98,6 @@ body {
     max-width: 700px;
     margin: 0 auto;
 }
-
-/*.info-separator {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #05386b;
-    margin-top: -30px;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-left: auto;
-    max-width: 100%;
-    height: 1px;
-}*/
 
 .logo-container {
     width: 420px;
@@ -140,10 +127,17 @@ body {
     margin-bottom: 15px;
 }
 
-.headshot {
+/*.headshot {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}*/
+
+h1 {
+    text-align: center;
+    color: #00688b;
+    margin-bottom: 5px;
+    font-size: 20pt;
 }
 
 h2 {
@@ -155,7 +149,7 @@ h2 {
 p {
     text-align: center;
     /*text-align-last: justify;*/
-    color: white;
+    color: black;
 }
 
 .container {
@@ -177,36 +171,36 @@ p {
 .c {
     font-size: 16pt;
     text-align: center;
-    color: #25274d;
+    color: white;
 }
 
 .c a:any-link {
-    color: #25274d;
+    color: white;
     text-decoration: none;
 }
 
 .c a:link {
-    color: #25274d;
+    color: white;
 }
 
 .c a:visited {
-    color: #25274d;
+    color: white;
 }
 
 .c a:hover {
-    background-color: white;
-    color: #25274d;
+    background-color: yellow;
+    color: black;
 }
 
 .c a:active {
-    color: #25274d;
+    color: white;
 }
 
 .contact-button {
     display: flex;
     justify-content: center;
     width: 250px;
-    background-color: #00688b;
+    background-color: black;
     height: 40px;
     margin: 5px;
 }
@@ -238,8 +232,17 @@ footer{
     width: 100%;
 }
 
+.web-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .footer {
-    background:#00688b;
+    background:#000000;
     height: 10px;
     margin: auto;
     width: 100%;
