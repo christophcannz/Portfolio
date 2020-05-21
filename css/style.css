@@ -141,6 +141,7 @@
     position: relative;
     z-index: 1;
 }
+/*
 .contact:before {
     position: absolute;
     content: '';
@@ -149,8 +150,9 @@
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.5);
-    z-index: 1;
+    z-index: -1;
 }
+*/
 .contact-items h2 {
     color: orangered;
     font-family: 'Teko', sans-serif;
