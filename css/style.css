@@ -1,13 +1,17 @@
 * {
-    margin: 0;padding: 0;
+    margin: auto;padding: 0px;
     font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
+    max-width: 700px;
 }
 
 .banner {
-    background-color: #191919;
-    color: #ff4500;
+    background-color: #0b0e10;
+    color: #33b3a6;
     width: 100%;
+    border-bottom: whitesmoke;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
 }
 
 .top-nav {
@@ -15,9 +19,13 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    background-color: #191919;
+    background-color: #0b0e10;
     width: 100%;
     height: auto;
+    padding: 10px;
+    border-bottom: whitesmoke;
+    border-bottom-style:solid;
+    border-bottom-width:thick;
 }
 
 .logo  {
@@ -61,9 +69,13 @@
 }
 .menu ul li a {
     font-family: 'Teko', sans-serif;
-    color: orangered;
+    color: #33b3a6;
     font-size: 20px;
     text-decoration: none;
+}
+
+a:hover {
+    color: #191919;
 }
 
 
@@ -75,14 +87,14 @@
     padding: 15% 0;
 }
 .banner-text-items {
-    color: #ffffff;
+    color: #33b3a6;
     margin: auto;
     text-align: center;
     width: 50%;
 }
 .banner-text-items h2 {
     font-size: 3em;
-    color: orangered;
+    color: #33b3a6;
     font-family: 'Teko', sans-serif;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -91,6 +103,22 @@
     font-size: 18px;
 }
 
+.work-gallery {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;  
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    background-color: #0b0e10;
+    padding: 5% 0;
+    border-bottom: whitesmoke;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+}
 
 .main-content {
     display: -webkit-box;
@@ -102,13 +130,16 @@
     -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    background-color: orangered;
+    background-color: #0b0e10;
     padding: 5% 0;
+    border-bottom: whitesmoke;
+    border-bottom-width:thick;
+    border-bottom-style:solid;
 }
 
 .main-content h2 {
     font-family: 'Teko', sans-serif;
-    color: #191919;
+    color: #33b3a6;
 }
 .main1 {
     -webkit-box-flex: 1;
@@ -118,6 +149,86 @@
     padding: 3%;
     text-align: center;
 }
+
+
+
+
+
+
+/*div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  */
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float:left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
+
+/*.work-gallery h2 {
+    font-family: 'Teko', sans-serif;
+    color: #33b3a6;
+}
+
+.work-gallery ul li a {
+    text-decoration: none;
+
+}
+.work1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 3%;
+    text-align: center;
+}
+*/
+
+
 
 
 .contact-items {
@@ -136,7 +247,7 @@
     flex-direction: column;
 }
 .contact {
-    background-color: #191919;
+    background-color:#0b0e10 ;
     padding: 80px 0;
     position: relative;
     z-index: 1;
@@ -154,7 +265,7 @@
 }
 */
 .contact-items h2 {
-    color: orangered;
+    color: #33b3a6;
     font-family: 'Teko', sans-serif;
     font-size: 40px;
     margin-bottom: 18px;
@@ -174,7 +285,7 @@
     width: 50%;
 }
 .contact-items a {
-    background: orangered;
+    background: #33b3a6;
     color: whitesmoke;
     font-family: 'Teko', sans-serif;
     display: block;
